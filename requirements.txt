@@ -11,3 +11,5 @@ seaborn
 wooldridge
 
 linearmodels
+
+scipy
