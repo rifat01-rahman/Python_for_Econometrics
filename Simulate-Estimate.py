@@ -23,3 +23,5 @@ print(f'estimate2: {estimate2}\n')
 sample3 = stats.norm.rvs(10, 2, size=n)
 estimate3 = np.mean(sample3)
 print(f'estimate3: {estimate3}\n')
+
+# Here, We have used the techniques of Monte Carlo Simulation to draw three different samples. Where we have already decided that the whole population is normally distributed, and when we randomly selsct the sample after that calculate the mean. It shows that mean are approximalely equal. It's all a proof of Central limit theorem. Estimate1 = 9.57360, Estimate2 = 10.245, Estimate3 = 9.960
